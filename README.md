@@ -1,0 +1,2 @@
+Respuesta:
+En React, className es el atributo de JSX para poner clases CSS (equivale a class en HTML, pero en React se llama así). Las props no tienen un límite fijo: puedes pasar cualquier valor de JavaScript (texto, números, objetos, funciones), aunque es mejor mantenerlas simples y pocas. Las props las define el componente padre cuando usa al hijo; el hijo solo las recibe y no debe modificarlas (son de solo lectura).
